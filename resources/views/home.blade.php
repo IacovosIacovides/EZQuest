@@ -1,10 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Home</title>
-</head>
-<body>
-    <p>Home</p>
-</body>
-</html>
+@extends ('layouts.master')
+@section('title', 'EZQuest')
+@section('content')
+    <p>Start building your survey</p>
+@endsection

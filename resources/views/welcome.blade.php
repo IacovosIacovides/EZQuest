@@ -136,7 +136,7 @@
     </head>
     <body>
         <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
+            @if (Route::has('home'))
                 <div class="top-right links">
                     @auth
                         <a href="{{ url('/home') }}">Home</a>
@@ -159,7 +159,7 @@
             </div>
             </div>
             
-            <a href="home.blade.php" class="link">
+            <a href="/" class="links">
             <button class="button" role="button"><span class="text">Start</span><span>Your survey</span></button>
             </a>
             
